@@ -1,0 +1,27 @@
+
+John Conway's Game of Life is a classic cell slot game that takes place on a 2D playing field with square cells. Each cell can be in two states - "alive" or "dead".
+
+The playing field with its cells forms a virtual ecosystem where the state of each cell depends on the state of neighboring cells. Although the rules are simple, the game can generate complex and interesting patterns that form when living and dead cells interact.
+
+The game can be used as a means of demonstrating concepts in the fields of cellular automata, data processing algorithms and computer simulations. It is the basis of many projects and research in the field of artificial intelligence, where it is used to model different types of dynamic systems and behaviors.
+
+The rules of the game are as follows:
+
+A live cell with less than 2 live neighbors dies.
+A live cell with 2 or 3 live neighbors remains alive.
+A live cell with more than 3 live neighbors dies.
+A dead cell with exactly 3 living neighbors is revived.
+
+New game: Starts a new game with an empty playing field.
+Load file: Allows the user to load a playing field from a file.
+Exit: Closes the program.
+During the game, the user can perform various actions:
+
+Step forward: Simulates a move and shows the new state of the playing field.
+Resize the field (Resize): Changes the size of the field according to the user's choice.
+Toggle cell: Toggles the state of a specific cell.
+Clear the field (Clear): Changes all cells to dead.
+Create a random field (Randomize): Changes the cells in the field to random values.
+The ability to load and save the playing field to a file provides the user with the ability to save interesting configurations or continue the game after temporarily closing the program.
+
+Like other cellular automata, Game of life emphasizes the importance of initial conditions in a system and how they influence its development. The complex images that form can be used to study algorithmic processes and analyze system dynamics.
